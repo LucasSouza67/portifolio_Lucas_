@@ -4,7 +4,6 @@ import { Project } from "@/data/projects"
 import Card from "@/components/ui/Card"
 import { motion } from "framer-motion"
 import { fadeUp } from "@/lib/animations"
-import Link from "next/link"
 
 interface ProjectCardProps {
   project: Project
@@ -39,11 +38,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         <div className="flex gap-4">
-          <Link href={`/projects/${project.slug}`}>
+    
+          <a href={project.demo} target="_blank" rel="noopener noreferrer" >
             Confira a Aplicação
-          </Link>
+          </a>
 
-          <a href={project.github} target="_blank">
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>

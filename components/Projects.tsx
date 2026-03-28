@@ -27,14 +27,11 @@ export default function Projects(){
                         </div>
 
                         <div className="flex gap-4">
-                            <a href={project.github} target="_blank">
+                            <a href={project.github} target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>
-                            {project.demo && (
-                            <a href={project.demo} target="_blank">
-                                Confira a aplicação
-                            </a>
-                            )}
+                            <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                            Confira a Aplicação</a>
                         </div>
                     </div>
             ))}
