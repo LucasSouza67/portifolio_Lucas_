@@ -31,4 +31,4 @@ O código foi organizado seguindo princípios de modularidade e componentizaçã
 
 **Desenvolvido por Lucas** – *Estudante de Ciência da Computação com foco em sistemas escaláveis e apaixonado por tecnologia.*
 
-[!LinkedIn]("https://www.linkedin.com/in/lucas-souza-1b5b862b4/")
+[LinkedIn](https://www.linkedin.com/in/lucas-souza-1b5b862b4/)
